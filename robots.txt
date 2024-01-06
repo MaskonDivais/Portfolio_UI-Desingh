@@ -1,0 +1,12 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://od-advokat.od.ua/sitemap.xml
+
+Host: https://od-advokat.od.ua/
