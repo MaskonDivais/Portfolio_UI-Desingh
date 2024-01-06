@@ -1,0 +1,243 @@
+body{
+	color: #fff;
+}
+
+.cont_menu{
+	background: #00000085 !important;	
+}
+.cont_menu .cont_menu_list>ul.cont_list>li>a.link{
+	color: #ffffff;
+}
+.cont_menu .cont_menu_lag>ul.right_ul>li>a.ua{
+	color:#ffffff;
+}
+.video_content .text_cent h1 {
+    color: #ffffff;
+}
+
+.box_next .window_box_next {
+    background: linear-gradient(90deg, #351d9b, #6d018b85);
+    outline: 5px solid #2424246b;
+}
+
+.slider:before {
+  background-color: #fdb71a;
+}
+input:checked + .slider {
+    background-color: #ffffff;
+}
+#pp-nav span,
+.pp-slidesNav span {
+    border-color: rgb(255 255 255) !important;
+}
+.line_menu_3 {
+    background: #ffffff;
+}
+.line_menu_2 {
+    background: #ffffff;
+}
+.line_menu_1 {
+    background: #ffffff;
+}
+.logo_menu{
+    background: url(../img/dark/Logo_2s.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.cont_menu .cont_menu_list>ul.cont_list>li>a.link:hover{
+  color:#66d4f9;
+}
+.cont_menu .cont_menu_lag>ul.right_ul>li>a.ua:hover{
+  color:#66d4f9;
+}
+
+.text_tel h1>a:hover {
+   color:#66d4f9;
+}
+/* Форма */
+.cont_fon_form {
+    background: linear-gradient(360deg, #0d0d0d 0%, #1e1e1e 100%);
+}
+.cont_fon_form .Fon_form {
+    background-image: url(../img/dark/form.png);
+}
+
+/* Переключение услуг */
+.bg_fon_1{
+  background-image: url(../img/dark/usles_1.jpg);
+}
+.bg_fon_2{
+  background-image: url(../img/dark/usles_2.jpg);
+}
+.bg_fon_3{
+  background-image: url(../img/dark/usles_3.jpg);
+}
+.bg_fon_4{
+  background-image: url(../img/dark/usles_4.jpg);
+}
+.bg_fon_5{
+  background-image: url(../img/dark/usles_5.jpg);
+}
+.bg_fon_6{
+  background-image: url(../img/dark/usles_6.jpg);
+}
+.bg_fon_7{
+  background-image: url(../img/dark/usles_7.jpg);
+}
+.bg_fon_8{
+  background-image: url(../img/dark/usles_8.jpg);
+}
+.bg_fon_9{
+  background-image: url(../img/dark/usles_9.jpg);
+}
+
+/* Footer */
+._f {
+    background-image: url(../img/dark/cont_4_1.png), linear-gradient(0deg, #0d0d0d 0%, #1e1e1e 100%);
+}
+.f_logo {
+    background-image: url(../img/dark/logo_vert_2.png);
+}
+
+/* Button */
+.q{
+  background: linear-gradient(90deg, rgba(0,51,153,1) 0%, rgba(64,5,79,1) 25%, rgba(0,51,153,1) 50%, #6b0098 75%, rgba(0,51,153,1) 100%);
+  background-size: 500%;
+  color: #fff !important;
+}
+.btn_q{
+  color: #fff;
+}
+.v{
+  background: linear-gradient(90deg, rgba(0,51,153,1) 0%, rgba(64,5,79,1) 25%, rgba(0,51,153,1) 50%, #6b0098 75%, rgba(0,51,153,1) 100%);
+  background-size: 500%;
+  color: #fff !important;
+}
+.btn{
+  color: #fff;
+}
+.footer {
+    background-color: #6e6e6e15;
+}
+.card {
+    border: 5px solid #1a1a1a;
+}
+.fon_v_text{
+    background: #0e0e0e60;
+}
+.cont_fon_form .cont_zak .cont_zak_text {
+    background: #0e0e0e60;
+}
+
+
+
+.text_2 {
+    background: linear-gradient(45deg, #351d9b, #6d018b00);
+}
+.button_question{
+  background: linear-gradient(45deg, #42005e 0%, #039 100%);
+}
+.button_question:hover{
+  background: linear-gradient(45deg, #42005e 0%, #039 100%);
+}
+.contein_3 {
+  background: linear-gradient(90deg, #0e0e0e 0%, #0e0e0e 100%);
+}
+.contein_4{
+  background: linear-gradient(90deg, #0e0e0e 0%, #0e0e0e 100%);
+}
+.contein_5 {
+    background-image: url(../img/dark/Table.png), linear-gradient(180deg, #0d0d0d 0%, #1e1e1e 100%);
+}
+
+
+
+._1 {
+    background-image: url(../img/dark/ZER_1.jpg);
+}
+._2 {
+    background-image: url(../img/dark/ZER_2.jpg);
+}
+._3 {
+    background-image: url(../img/dark/ZER_3.jpg);
+}
+._4 {
+    background-image: url(../img/dark/ZER_4.jpg);
+}
+._5 {
+    background-image: url(../img/dark/ZER_5.jpg);
+}
+._6 {
+    background-image: url(../img/dark/ZER_6.jpg);
+}
+._7 {
+    background-image: url(../img/dark/ZER_7.jpg);
+}
+._8 {
+    background-image: url(../img/dark/ZER_8.jpg);
+}
+._9 {
+    background-image: url(../img/dark/ZER_9.jpg);
+}
+._10 {
+    background-image: url(../img/dark/ZER_10.jpg);
+}
+._11 {
+    background-image: url(../img/dark/ZER_11.jpg);
+}
+._12 {
+    background-image: url(../img/dark/ZER_12.jpg);
+}
+
+/* Forma */
+.form-inner input[type="submit"]:hover {
+    background: linear-gradient(45deg, #42005e 0%, #039 100%);
+    color: #ffffff;
+    border: 1px solid #fff;
+}
+.form_adv .transparent .form-inner .form_logo {
+    background-image: url(../img/dark/Logo_2.png);
+}
+.form-inner input[type="submit"] {
+    color: #000;
+    border: 1px solid #fff;
+}
+.textarea {
+    color: #fff;
+    border-color: #fff;
+}
+.form-inner h3 {
+    color: #fff;
+}
+.form-inner h2 {
+    color: #fff;
+}
+.form-inner label {
+    color: #fff;
+}
+.form-inner input {
+    border-color: #fff;
+    color: #fff;
+}
+
+
+.switch {
+    background-image: url(../img/dark/Tema_1.png);
+}
+.switch:checked{
+  background-image: url(../img/dark/Tema_w.png);
+}
+
+.contein_2 {
+    background: linear-gradient(90deg, #0e0e0e 0%, #0e0e0e 100%);
+}
+
+
+._l1 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l2 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
+._l3 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l4 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
+._l5 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l6 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
+._l7 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l8 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
+._l9 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l10 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
+._l11 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l12 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
