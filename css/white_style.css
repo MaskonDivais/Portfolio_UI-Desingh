@@ -3,7 +3,7 @@ body{
 }
 
 .cont_menu{
-	background: #00000085 !important;	
+	background: #242424 !important;	
 }
 .cont_menu .cont_menu_list>ul.cont_list>li>a.link{
 	color: #ffffff;
@@ -235,9 +235,3 @@ input:checked + .slider {
 }
 
 
-._l1 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l2 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
-._l3 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l4 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
-._l5 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l6 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
-._l7 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l8 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
-._l9 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l10 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
-._l11 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l12 { background: url(../img/dark/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
