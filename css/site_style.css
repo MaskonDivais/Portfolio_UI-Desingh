@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 .line_blok {
   content: "";
   left: 50%;
@@ -601,23 +605,21 @@
 
 .cont_reglam {
   width: 100%;
-  height: 55%;
+  height: -webkit-fill-available;
   display: block;
-  position: absolute;
+  position: relative;
   margin: 0px;
   padding: 0px;
-  left: 50%;
-  top: 65%;
-  transform: translate(-50%, -50%);
+
   outline: 5px solid #00000050;
   background: linear-gradient(90deg, #351d9bcf, #6d018b15);
 }
 
 .reglam_text {
   position: relative;
-  margin: 0px 15px;
-  top: 50%;
-  transform: translate(0%, -50%);
+  margin: 0px ;
+  padding: 1rem;
+
 }
 
 .reglam_t1 {
@@ -733,7 +735,7 @@ font-family: 'Jura', sans-serif;
   transform: skew(150deg) translate(-54%, -50%);
   width: max-content;
   padding: 0px 2rem;
-/* 
+  /* 
   outline: 5px solid #2424246b; */
 }
 
@@ -1159,7 +1161,9 @@ font-family: 'Jura', sans-serif;
   width: 50%;
   display: grid;
   justify-items: center;
-
+  justify-content: center;
+  align-items: center;
+  align-content: space-evenly;
 }
 
 .fon_v_text {
@@ -1284,7 +1288,7 @@ font-family: 'Jura', sans-serif;
   float: left;
   width: auto;
   height: 100%;
-  
+
   background: linear-gradient(225deg, #351d9b, #6d018b85);
 }
 
@@ -1336,22 +1340,27 @@ font-family: 'Jura', sans-serif;
 
 .fon_buton_f {
   position: relative;
-  display: inline-block;
+  display: grid;
+  gap: 1rem;
   top: 0%;
   width: 100%;
-  height: 30%;
+  height:auto;
   margin: 10px;
+  padding: 1rem;
   background-image: url(../img/form.png);
   background-repeat: no-repeat;
   background-size: cover;
   outline: 5px solid #00000050;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: space-evenly;
 }
 
 .cont_button_f_usles {
   position: relative;
   display: inline-block;
-  top: 50%;
-  transform: translate(0%, -50%);
+
 }
 
 .footer {
@@ -1694,10 +1703,12 @@ tr {
   border-color: inherit;
   background: #00000000;
 }
-.trup{
+
+.trup {
 
   background: #242424b7;
 }
+
 td {
   color: white;
   font-family: 'Jura', sans-serif;
@@ -1737,10 +1748,12 @@ tr:hover td {
   text-transform: uppercase;
   height: 3.5rem;
 }
+
 .tb_price td:hover {
   background: #66d4f9;
   color: #000;
 }
+
 .tb_price td.line_tabl {
   padding: 10px 20px;
 }
@@ -1796,6 +1809,11 @@ tr:hover td {
   transition: opacity 0.1s ease;
   height: 194px;
   margin-bottom: 5px;
+  display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .swiper-container.nav-slider .swiper-slide.swiper-slide-active {
@@ -1852,7 +1870,7 @@ tr:hover td {
 
 .bg_cont {
   position: absolute;
-  transform: translate(-90%, -50%);
+  transform: translate(-50%, -50%);
   top: 50% !important;
   left: 50% !important;
   padding: 15px;
@@ -1860,10 +1878,14 @@ tr:hover td {
 
 .swiper-slide .content {
   position: absolute;
-  top: 40%;
-  left: 0;
-  width: 50%;
+
+  width: 90%;
   color: #fff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
 
 }
 
@@ -1875,15 +1897,34 @@ tr:hover td {
 }
 
 .swiper-slide .content .caption {
-  display: block;
+  display: grid;
+  grid-template-areas: 
+  "Blok1 Blok1 Blok2"
+  "Blok3 Blok4 Blok5"
+  ;
+  
   font-size: 13px;
   line-height: 1.4;
   transform: translateX(50px);
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.7s ease;
-  margin: 20px 0px 0px 0px;
+  margin: 0px;
 }
-
+.Blok1{
+  grid-area: Blok1;
+}
+.Blok2{
+  grid-area: Blok2;
+}
+.Blok3{
+  grid-area: Blok3;
+}
+.Blok4{
+  grid-area: Blok4;
+}
+.Blok5{
+  grid-area: Blok5;
+}
 .cont_us_t1 {
   outline: 5px solid #00000050;
   background: linear-gradient(90deg, #351d9bcf, #6d018b15);
@@ -1894,9 +1935,14 @@ tr:hover td {
 .cont_us_t2 {
   outline: 5px solid #00000050;
   background: #242424eb;
-  margin: 20px 0px 0px 0px;
+  margin: 0px;
   padding: 15px;
   border-radius: 1rem;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .text_sec2_1 {
@@ -2316,7 +2362,49 @@ tr:hover td {
 
 /*-------------- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Стили Видео Блок-1 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\--------------*/
 
-.centr{
+.centr {
   text-align: center;
   vertical-align: middle;
+}
+
+.p_foter {
+  font-family: 'Jura', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 1.45;
+  text-decoration: none;
+  margin: 0px 1rem;
+
+}
+
+.Cont_Icons {
+  display: inline-flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(90deg, #ffffff00, #311e7e, #ffffff00);
+}
+
+.Icon {
+  display: block; 
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Linked{
+  background-image: url(../img/Linked.png);
+} 
+.GitHub {
+  background-image: url(../img/GitHub.png);
+}
+.LeetCode {
+  background-image: url(../img/LeetCode.png);
+}
+.Instagram {
+  background-image: url(../img/Instagram.png);
+}
+.Google{
+  background-image: url(../img/Google.png);
 }
