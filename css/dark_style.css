@@ -1,5 +1,5 @@
 body{
-	color: #000;
+	color: #000000 ;
 }
 .cont_menu{
 	background: #ffffff85 !important;	
@@ -21,7 +21,7 @@ body{
 }
 #pp-nav span,
 .pp-slidesNav span {
-    border-color: #000000 !important;
+    border-color: #ffffff !important;
 }
 .line_menu_3 {
     background: #000;
@@ -112,15 +112,8 @@ body{
 .fon_v_text{
     background: #0e0e0e15;
 }
-.cont_fon_form .cont_zak .cont_zak_text {
-    background: #0e0e0e20;
-}
-.text_fv2 {
-    background: linear-gradient(225deg, #fff0, #51c2ff);
-}
-.text_2 {
-    background: linear-gradient(225deg, #fff0, #51c2ff);
-}
+
+
 
 .contein_3 {
   background: linear-gradient(0deg, #919191 0%, #f1f1f1 100%);
@@ -129,40 +122,40 @@ body{
   background: linear-gradient(180deg, #919191 0%, #f1f1f1 100%);
 }
 ._1 {
-    background-image: url(../img/ZER_1w.png);
+    background-image: url(../img/white/ZER_1w.jpg);
 }
 ._2 {
-    background-image: url(../img/ZER_2w.png);
+    background-image: url(../img/white/ZER_2w.jpg);
 }
 ._3 {
-    background-image: url(../img/ZER_3w.png);
+    background-image: url(../img/white/ZER_3w.jpg);
 }
 ._4 {
-    background-image: url(../img/ZER_4w.png);
+    background-image: url(../img/white/ZER_4w.jpg);
 }
 ._5 {
-    background-image: url(../img/ZER_5w.png);
+    background-image: url(../img/white/ZER_5w.jpg);
 }
 ._6 {
-    background-image: url(../img/ZER_6w.png);
+    background-image: url(../img/white/ZER_6w.jpg);
 }
 ._7 {
-    background-image: url(../img/ZER_7w.png);
+    background-image: url(../img/white/ZER_7w.jpg);
 }
 ._8 {
-    background-image: url(../img/ZER_8w.png);
+    background-image: url(../img/white/ZER_8w.jpg);
 }
 ._9 {
-    background-image: url(../img/ZER_9w.png);
+    background-image: url(../img/white/ZER_9w.jpg);
 }
 ._10 {
-    background-image: url(../img/ZER_10w.png);
+    background-image: url(../img/white/ZER_10w.jpg);
 }
 ._11 {
-    background-image: url(../img/ZER_11w.png);
+    background-image: url(../img/white/ZER_11w.jpg);
 }
 ._12 {
-    background-image: url(../img/ZER_12w.png);
+    background-image: url(../img/white/ZER_12w.jpg);
 }
 
 /* Forma */
@@ -208,9 +201,129 @@ body{
 }
 
 
-._l1 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l2 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
-._l3 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l4 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
-._l5 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l6 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
-._l7 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l8 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
-._l9 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l10 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
-._l11 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}._l12 { background: url(../img/white/Logo_zer_1.png) no-repeat;background-size: contain;background-position: center;}
+
+.swiper-slide .content {
+    color: #000;
+}
+.text_sec2_1 {
+    color: #000;
+}
+
+.box_next .window_box_next {
+    background: linear-gradient(90deg, #351d9b, #6d018b85);
+    outline: 5px solid #66d4f9;
+}
+.Logo_zer {
+
+}
+.box_max .window_box .text_window {
+    color: #000;
+}
+.panoram .p_window:hover {
+    -webkit-box-shadow: 0 5px 10px #66d4f9;
+    box-shadow: 0 5px 10px #66d4f9;
+}
+.conteiner-selection-fon {
+    background-image: url(../img/white/cont_4_w.png ), linear-gradient(180deg, #919191 0%, #f1f1f1 100%);
+}
+.conteiner-fon-UP {
+    background-image: url(../img/white/form_w.png);
+}
+.conteiner-selection-UP {
+    color: black;
+    background: #e9e9e970;
+}
+.conteiner-selection-DOWN {
+    color: black;
+    background: #e9e9e970;
+}
+.text_cent {
+    background: linear-gradient(90deg, #33ccff, #ff99cc) !important;
+    outline: 8px solid #ffffff85 !important;
+    color: #000 !important;
+}
+.text_tel {
+    background: #33ccff !important;
+    color: #000 !important;
+}
+.text_tel h1>a {
+    color: #000 !important;
+}    
+.v1 {
+    background-color: #ffffff85 !important;
+}
+.q1 {
+    background-color: #ffffff85 !important;
+}
+.text_name h1 {
+    color: #ffffff !important;
+}
+.text_name_2 h1 {
+    color: #ffffff !important;
+}
+.swiper-slide .content {
+    background: #ffffff85 !important;
+}
+.title{
+    color: #000 !important;
+}
+.AUQ {
+    color: #6d018b !important;
+}
+.FFP {
+    color: #6d018b !important;
+}
+.Star {
+
+    background-color: #6d018b !important;
+   
+}
+.Vert-Line {
+    background: #6d018b !important;
+}
+.FFPM {
+    color: #6d018b !important;
+}
+.button-block2 {
+
+    background-color: #6d018b !important;
+    border: solid 1px #fff;
+
+}
+.button-block2:hover {
+color: #33ccff !important;
+    background-color: #6d018b !important;
+    border: solid 1px #fff;
+
+}
+.v_cont_5 {
+    background: linear-gradient(90deg, #33ccff, #ff99cc) !important;
+
+}
+.v_cont_2 {
+    background: linear-gradient(90deg, #33ccff, #ff99cc) !important;
+}
+.v_cont_0 {
+    background: linear-gradient(90deg, #33ccff, #ff99cc) !important;
+}
+.FTH2 {
+    background: linear-gradient(90deg, #33ccff, #ff99cc) !important;
+}
+.FTH3 {
+    background: linear-gradient(90deg, #33ccff, #ff99cc) !important;
+}
+.FTH1 {
+    background: linear-gradient(90deg, #33ccff, #ff99cc) !important;
+}
+.FDP1{
+    background: linear-gradient(90deg, #33ccff, #ff99cc) !important;
+}
+.trup {
+    background: #ffffff !important;
+}
+td {
+
+    background: #cdcdcd !important;
+    color: #000 !important;
+  
+}

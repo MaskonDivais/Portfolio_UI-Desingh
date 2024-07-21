@@ -77,7 +77,7 @@
     font-size: calc(16px + (21 - 16) * ((100vw - 1024px) / (2560 - 1024)));
     text-align: justify;
     width: auto;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
     transform: skew(150deg);
     line-height: 1.45;
